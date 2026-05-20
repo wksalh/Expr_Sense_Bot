@@ -1,0 +1,30 @@
+[Unit]
+Description=Start Car Service for QuecPi Smart Car
+After=NetworkManager.service
+
+[Service]
+Type=simple
+Restart=on-failure
+RestartSec=30
+StartLimitInterval=300
+StartLimitBurst=5
+TimeoutStartSec=120
+TimeoutStopSec=30
+KillMode=mixed
+KillSignal=SIGTERM
+User=root
+ExecStart=/bin/bash @QUECPI_SERVICE_CONFIG_DIR@/run/start_car.sh
+WorkingDirectory=@QUECPI_SERVICE_CONFIG_DIR@/run
+StandardOutput=journal+console
+StandardError=journal+console
+Environment="QUECPI_BASE_DIR=@QUECPI_BASE_DIR@"
+Environment="QUECPI_SERVICE_CONFIG_DIR=@QUECPI_SERVICE_CONFIG_DIR@"
+Environment="QUECPI_ROS2_WS_DIR=@QUECPI_ROS2_WS_DIR@"
+Environment="COZE_ENV_FILE=/etc/ai_car/coze.env"
+EnvironmentFile=-/etc/ai_car/coze.env
+Environment=PYTHONPATH=/home/root/.local/lib/python3.10/site-packages:/usr/lib/python3.10/site-packages
+Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Environment=HOME=/home/root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,38 @@
+{
+    "inference": [
+        {
+            "algorithm": "ftc",
+            "framework": "Ftc.v1",
+            "model_type": "fast",
+            "backend": "QCOM",
+            "model_id": "414",
+            "Ftc.v1_model": {
+                "model_dir": "/mnt/car_test/ai_tracker_body/model/reid/",
+                "label": [
+                ],
+                "scoreThresh": 0.2,
+                "mean": [
+                    128.0,
+                    128.0,
+                    128.0
+                ],
+                "std": [
+                    128.0,
+                    128.0,
+                    128.0
+                ],
+                "filters": [
+                ],
+                "model_height": 128,
+                "model_width": 128,
+                "model_channels": 3,
+                "timeout_us": 1000000,
+                "calibration": false
+            },
+            "save_image_root": "./results",
+            "quantize_id": "2026",
+            "quantize": "int8",
+            "platform": "ARM_Linux_QCOM"
+        }
+    ]
+}

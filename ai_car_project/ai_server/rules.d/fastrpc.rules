@@ -1,0 +1,6 @@
+ACTION=="add" SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp-secure", OWNER="system", GROUP="system", MODE="0640"
+ACTION=="add" SUBSYSTEM=="misc", KERNEL=="fastrpc-cdsp-secure", OWNER="system", GROUP="system", MODE="0640"
+ACTION=="add" SUBSYSTEM=="misc", KERNEL=="fastrpc-cdsp1-secure", OWNER="system", GROUP="system", MODE="0640"
+ACTION=="add" SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp", OWNER="system", GROUP="system", MODE="0664"
+ACTION=="add" SUBSYSTEM=="misc", KERNEL=="fastrpc-cdsp", OWNER="system", GROUP="system", MODE="0664"
+ACTION=="add" SUBSYSTEM=="misc", KERNEL=="fastrpc-cdsp1", OWNER="system", GROUP="system", MODE="0664"

@@ -1,0 +1,85 @@
+[1.297s] Invoking command in '/home/ubuntu/ros2_ws/src/app': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/app/prefix_override:/home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/app build --build-base /home/ubuntu/ros2_ws/src/build/app/build install --record /home/ubuntu/ros2_ws/src/build/app/install.log --single-version-externally-managed
+[1.537s] running egg_info
+[1.538s] creating ../build/app/app.egg-info
+[1.539s] writing ../build/app/app.egg-info/PKG-INFO
+[1.540s] writing dependency_links to ../build/app/app.egg-info/dependency_links.txt
+[1.541s] writing entry points to ../build/app/app.egg-info/entry_points.txt
+[1.542s] writing requirements to ../build/app/app.egg-info/requires.txt
+[1.542s] writing top-level names to ../build/app/app.egg-info/top_level.txt
+[1.544s] writing manifest file '../build/app/app.egg-info/SOURCES.txt'
+[1.546s] reading manifest file '../build/app/app.egg-info/SOURCES.txt'
+[1.548s] writing manifest file '../build/app/app.egg-info/SOURCES.txt'
+[1.549s] running build
+[1.550s] running build_py
+[1.550s] creating /home/ubuntu/ros2_ws/src/build/app/build
+[1.551s] creating /home/ubuntu/ros2_ws/src/build/app/build/lib
+[1.552s] creating /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.553s] copying app/__init__.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.554s] copying app/qrcode.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.554s] copying app/line_following.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.555s] copying app/avoidance_node.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.556s] copying app/gesture_control_node.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.557s] copying app/hand_gesture.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.557s] copying app/common.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.558s] copying app/obj_loader.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.559s] copying app/tracking.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.560s] copying app/hand_trajectory_node.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app
+[1.560s] running install
+[1.561s] running install_lib
+[1.562s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.562s]   warnings.warn(
+[1.563s] creating /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.564s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/__init__.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.565s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/qrcode.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.565s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/line_following.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.566s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/avoidance_node.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.567s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/gesture_control_node.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.567s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/hand_gesture.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.568s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/common.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.568s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/obj_loader.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.569s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/tracking.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.570s] copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/hand_trajectory_node.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app
+[1.570s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/__init__.py to __init__.cpython-310.pyc
+[1.571s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/qrcode.py to qrcode.cpython-310.pyc
+[1.572s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/line_following.py to line_following.cpython-310.pyc
+[1.572s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/avoidance_node.py to avoidance_node.cpython-310.pyc
+[1.573s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/gesture_control_node.py to gesture_control_node.cpython-310.pyc
+[1.573s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/hand_gesture.py to hand_gesture.cpython-310.pyc
+[1.574s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/common.py to common.cpython-310.pyc
+[1.574s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/obj_loader.py to obj_loader.cpython-310.pyc
+[1.574s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/tracking.py to tracking.cpython-310.pyc
+[1.575s] byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/hand_trajectory_node.py to hand_trajectory_node.cpython-310.pyc
+[1.576s] running install_data
+[1.577s] creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index
+[1.577s] creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index
+[1.578s] creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index/packages
+[1.578s] copying resource/app -> /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index/packages
+[1.579s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/app/share/app
+[1.579s] creating /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.580s] copying launch/avoidance_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.580s] copying launch/object_tracking.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.581s] copying launch/line_following_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.581s] copying launch/qrcode.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.581s] copying launch/line_following.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.582s] copying launch/start_app.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.582s] copying launch/gesture_control_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.583s] copying launch/object_tracking_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch
+[1.583s] creating /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.584s] copying models/wolf.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.584s] copying models/cow.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.585s] copying models/bicycle.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.585s] copying models/pirate-ship-fat.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.586s] copying models/model.jpg -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.586s] copying models/chair.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.586s] copying models/rat.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.587s] copying models/fox.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models
+[1.587s] running install_egg_info
+[1.588s] Copying ../build/app/app.egg-info to /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app-0.0.0-py3.10.egg-info
+[1.589s] running install_scripts
+[1.614s] Installing avoidance_node script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[1.614s] Installing gesture_control_node script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[1.615s] Installing line_following script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[1.615s] Installing qrcode script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[1.616s] Installing tracking script to /home/ubuntu/ros2_ws/src/install/app/lib/app
+[1.617s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/app/install.log'
+[1.658s] Invoked command in '/home/ubuntu/ros2_ws/src/app' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/app/prefix_override:/home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../build/app build --build-base /home/ubuntu/ros2_ws/src/build/app/build install --record /home/ubuntu/ros2_ws/src/build/app/install.log --single-version-externally-managed

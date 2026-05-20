@@ -1,0 +1,18 @@
+[Unit]
+Description=V4L2loopback Camera Forward Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStartPre=/bin/sh -c 'for dev in /dev/video0 /dev/video2; do if [ -e "$dev" ] && v4l2-ctl --device="$dev" --info 2>/dev/null | grep -qi capture; then echo "$dev" > /tmp/v4l2loopback_camera; break; fi; done'
+ExecStartPre=/sbin/modprobe v4l2loopback video_nr=4,5 card_label=VirtualCam1,VirtualCam2 exclusive_caps=1
+ExecStartPre=/bin/sleep 2
+ExecStartPre=/bin/ln -sf /dev/video5 /dev/depth_cam
+ExecStart=/bin/sh -c 'CAMERA=$(cat /tmp/v4l2loopback_camera); exec /usr/bin/gst-launch-1.0 -e v4l2src device=$CAMERA ! video/x-raw,width=640,height=480,framerate=30/1 ! tee name=t t. ! queue ! videoconvert ! v4l2sink device=/dev/video4 t. ! queue ! videoconvert ! v4l2sink device=/dev/video5'
+ExecStopPost=/bin/rm -f /tmp/v4l2loopback_camera /dev/depth_cam
+Restart=always
+RestartSec=3
+User=root
+
+[Install]
+WantedBy=multi-user.target

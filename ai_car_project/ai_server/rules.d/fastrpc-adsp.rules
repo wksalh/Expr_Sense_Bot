@@ -1,0 +1,1 @@
+SUBSYSTEM=="misc", KERNEL=="fastrpc-adsp-secure", TAG+="systemd"

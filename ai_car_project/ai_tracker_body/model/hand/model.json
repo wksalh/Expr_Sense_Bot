@@ -1,0 +1,58 @@
+{
+    "inference": [
+        {
+            "algorithm": "detection",
+            "framework": "Det.v1",
+            "model_type": "fast",
+            "backend": "QCOM",
+            "model_id": "1088",
+            "Det.v1_model": {
+                "model_dir": "/mnt/car_test/ai_tracker_body/model/hand/",
+                "label": [
+                    "hand"
+                ],
+                "confThresh": 0.2,
+                "iouThresh": 0.3,
+                "scoreThresh": 0.2,
+                "mean": [
+                    0,
+                    0,
+                    0
+                ],
+                "std": [
+                    255,
+                    255,
+                    255
+                ],
+                "filters": [
+                    {
+                        "name": "hand",
+                        "area_range": [
+                            9,
+                            10000000
+                        ],
+                        "long_range": [
+                            3,
+                            10000000
+                        ],
+                        "short_range": [
+                            3,
+                            10000000
+                        ],
+                        "enable": true,
+                        "scoreThresh": 0.7
+                    }
+                ],
+                "model_height": 640,
+                "model_width": 640,
+                "model_channels": 3,
+                "timeout_us": 1000000,
+                "calibration": false
+            },
+            "save_image_root": "./results",
+            "quantize_id": "4615",
+            "quantize": "int8",
+            "platform": "ARM_Linux_QCOM"
+        }
+    ]
+}

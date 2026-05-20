@@ -1,0 +1,25 @@
+[Unit]
+Description=QuecPi Smart Car ROS2 Application
+
+[Service]
+Type=simple
+Restart=on-failure
+User=root
+Environment="DISPLAY=:0"
+Environment="need_compile=True"
+Environment="ROS_DOMAIN_ID=0"
+Environment="QUECPI_BASE_DIR=@QUECPI_BASE_DIR@"
+Environment="QUECPI_SERVICE_CONFIG_DIR=@QUECPI_SERVICE_CONFIG_DIR@"
+Environment="QUECPI_ROS2_WS_DIR=@QUECPI_ROS2_WS_DIR@"
+Environment="PYTHONPATH=/usr/lib/python3.10/site-packages:@QUECPI_ROS2_WS_DIR@/install/lib/python3.10/site-packages:/home/root/.local/lib/python3.10/site-packages"
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/ros/humble/bin"
+ExecStart=/bin/bash @QUECPI_SERVICE_CONFIG_DIR@/run/start_node.sh
+WorkingDirectory=@QUECPI_ROS2_WS_DIR@
+KillMode=mixed
+KillSignal=SIGTERM
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

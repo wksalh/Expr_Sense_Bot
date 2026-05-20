@@ -1,0 +1,8 @@
+{
+    "nn_budget":10, 
+    "max_cosine_distance":0.4,
+    "config_path_det":"/mnt/car_test/ai_tracker_body/model/face/model.json",
+    "config_path_track" : "/mnt/car_test/ai_tracker_body/model/reid/model.json",
+    "det_thr":0,
+    "use_reid":true
+}

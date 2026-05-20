@@ -1,0 +1,58 @@
+{
+    "inference": [
+        {
+            "algorithm": "detection",
+            "framework": "Det.v1",
+            "model_type": "fast",
+            "backend": "QCOM",
+            "model_id": "1784",
+            "Det.v1_model": {
+                "model_dir": "/mnt/car_test/ai_tracker_body/model/face/",
+                "label": [
+                    "face"
+                ],
+                "confThresh": 0.05,
+                "iouThresh": 0.4,
+                "scoreThresh": 0.01,
+                "mean": [
+                    0,
+                    0,
+                    0
+                ],
+                "std": [
+                    255,
+                    255,
+                    255
+                ],
+                "filters": [
+                    {
+                        "name": "face",
+                        "area_range": [
+                            9,
+                            10000000
+                        ],
+                        "long_range": [
+                            3,
+                            10000000
+                        ],
+                        "short_range": [
+                            3,
+                            10000000
+                        ],
+                        "enable": true,
+                        "scoreThresh": 0.1
+                    }
+                ],
+                "model_height": 512,
+                "model_width": 512,
+                "model_channels": 3,
+                "timeout_us": 1000000,
+                "calibration": false
+            },
+            "save_image_root": "./results",
+            "quantize_id": "5381",
+            "quantize": "int8",
+            "platform": "ARM_Linux_QCOM"
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+# Support for ttyHS2 device (QCS6490)
+KERNEL=="ttyHS2", SUBSYSTEM=="tty", GROUP="ubuntu", MODE="0777"

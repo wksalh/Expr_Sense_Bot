@@ -1,0 +1,24 @@
+/**:
+    ros__parameters:
+      video_device: "/dev/video0"  # 直接使用video0，避免软链接问题
+      framerate: 10.0  # 使用最低帧率
+      io_method: "read"  # 使用最稳定的read方法
+      frame_id: "camera"
+      pixel_format: "yuyv"  # 使用YUYV格式
+      av_device_format: "YUYV"
+      image_width: 160  # 使用最低分辨率
+      image_height: 120
+      camera_name: "usb_cam"
+      camera_info_url: "package://peripherals/config/camera_info.yaml"
+      # 禁用所有高级功能，使用最基础设置
+      brightness: 50
+      contrast: 50
+      saturation: 50
+      sharpness: 50
+      gain: 50
+      auto_white_balance: false
+      white_balance: 0
+      autoexposure: false
+      exposure: 0
+      autofocus: false
+      focus: -1

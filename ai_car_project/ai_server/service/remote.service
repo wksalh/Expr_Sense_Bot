@@ -1,0 +1,18 @@
+[Unit]
+Description=Remote Control Service for QuecPi Smart Car
+After=NetworkManager.service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=root
+ExecStart=/usr/bin/python3 @QUECPI_SERVICE_CONFIG_DIR@/run/remote.py
+WorkingDirectory=@QUECPI_SERVICE_CONFIG_DIR@/run
+StandardOutput=journal
+StandardError=journal
+Environment="QUECPI_BASE_DIR=@QUECPI_BASE_DIR@"
+Environment="QUECPI_SERVICE_CONFIG_DIR=@QUECPI_SERVICE_CONFIG_DIR@"
+
+[Install]
+WantedBy=multi-user.target

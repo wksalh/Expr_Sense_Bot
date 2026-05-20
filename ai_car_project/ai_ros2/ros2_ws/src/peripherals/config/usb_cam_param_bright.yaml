@@ -1,0 +1,23 @@
+/**:
+    ros__parameters:
+      video_device: "/dev/depth_cam"
+      framerate: 30.0
+      io_method: "mmap"
+      frame_id: "camera"
+      pixel_format: "mjpeg"
+      av_device_format: "MJPEG"
+      image_width: 640
+      image_height: 480
+      camera_name: "usb_cam"
+      camera_info_url: "package://peripherals/config/camera_info.yaml"
+      brightness: 30   # 降低亮度，避免过曝
+      contrast: 40     # 适中的对比度
+      saturation: 50   # 适中的饱和度
+      sharpness: 50    # 适中的锐度
+      gain: 20         # 降低增益，减少噪声
+      auto_white_balance: true
+      white_balance: 6500  # 较高色温，适应冷光环境
+      autoexposure: true
+      exposure: 50         # 减少曝光时间，避免过曝
+      autofocus: false
+      focus: -1

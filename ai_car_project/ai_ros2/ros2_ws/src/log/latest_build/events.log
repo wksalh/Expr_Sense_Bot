@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000879] (-) JobUnselected: {'identifier': 'bringup'}
+[0.001738] (-) JobUnselected: {'identifier': 'controller'}
+[0.001798] (-) JobUnselected: {'identifier': 'example'}
+[0.001826] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.001847] (-) JobUnselected: {'identifier': 'large_models'}
+[0.001868] (-) JobUnselected: {'identifier': 'large_models_msgs'}
+[0.001889] (-) JobUnselected: {'identifier': 'peripherals'}
+[0.001909] (-) JobUnselected: {'identifier': 'ros_robot_controller'}
+[0.001929] (-) JobUnselected: {'identifier': 'ros_robot_controller_msgs'}
+[0.001948] (-) JobUnselected: {'identifier': 'sdk'}
+[0.001972] (app) JobQueued: {'identifier': 'app', 'dependencies': OrderedDict()}
+[0.001997] (app) JobStarted: {'identifier': 'app'}
+[0.099558] (-) TimerEvent: {}
+[0.200166] (-) TimerEvent: {}
+[0.300703] (-) TimerEvent: {}
+[0.401305] (-) TimerEvent: {}
+[0.501879] (-) TimerEvent: {}
+[0.602544] (-) TimerEvent: {}
+[0.703225] (-) TimerEvent: {}
+[0.804291] (-) TimerEvent: {}
+[0.905246] (-) TimerEvent: {}
+[1.006134] (-) TimerEvent: {}
+[1.106875] (-) TimerEvent: {}
+[1.207707] (-) TimerEvent: {}
+[1.288662] (app) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/app', 'build', '--build-base', '/home/ubuntu/ros2_ws/src/build/app/build', 'install', '--record', '/home/ubuntu/ros2_ws/src/build/app/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_ws/src/app', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOSTNAME': '2227dae47432', 'LIBGL_ALWAYS_SOFTWARE': '1', 'HOME': '/root', 'LC_CTYPE': 'C.UTF-8', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'PULSE_SERVER': 'unix:/run/user/1000/pulse/native', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':0', 'XAUTHORITY': '', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build --packages-select app', 'SHELL': '/usr/bin/zsh', 'SUDO_USER': 'ubuntu', 'PWD': '/home/ubuntu/ros2_ws/src/build/app', 'COLCON': '1', 'PYTHONPATH': '/home/ubuntu/ros2_ws/src/build/app/prefix_override:/home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages:'}, 'shell': False}
+[1.307933] (-) TimerEvent: {}
+[1.409368] (-) TimerEvent: {}
+[1.510446] (-) TimerEvent: {}
+[1.538267] (app) StdoutLine: {'line': b'running egg_info\n'}
+[1.539702] (app) StdoutLine: {'line': b'creating ../build/app/app.egg-info\n'}
+[1.540630] (app) StdoutLine: {'line': b'writing ../build/app/app.egg-info/PKG-INFO\n'}
+[1.541466] (app) StdoutLine: {'line': b'writing dependency_links to ../build/app/app.egg-info/dependency_links.txt\n'}
+[1.542315] (app) StdoutLine: {'line': b'writing entry points to ../build/app/app.egg-info/entry_points.txt\n'}
+[1.543089] (app) StdoutLine: {'line': b'writing requirements to ../build/app/app.egg-info/requires.txt\n'}
+[1.543855] (app) StdoutLine: {'line': b'writing top-level names to ../build/app/app.egg-info/top_level.txt\n'}
+[1.545609] (app) StdoutLine: {'line': b"writing manifest file '../build/app/app.egg-info/SOURCES.txt'\n"}
+[1.547801] (app) StdoutLine: {'line': b"reading manifest file '../build/app/app.egg-info/SOURCES.txt'\n"}
+[1.548826] (app) StdoutLine: {'line': b"writing manifest file '../build/app/app.egg-info/SOURCES.txt'\n"}
+[1.549943] (app) StdoutLine: {'line': b'running build\n'}
+[1.550857] (app) StdoutLine: {'line': b'running build_py\n'}
+[1.551840] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/build/app/build\n'}
+[1.552546] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/build/app/build/lib\n'}
+[1.552992] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.554019] (app) StdoutLine: {'line': b'copying app/__init__.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.555009] (app) StdoutLine: {'line': b'copying app/qrcode.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.555801] (app) StdoutLine: {'line': b'copying app/line_following.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.556667] (app) StdoutLine: {'line': b'copying app/avoidance_node.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.557454] (app) StdoutLine: {'line': b'copying app/gesture_control_node.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.558173] (app) StdoutLine: {'line': b'copying app/hand_gesture.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.558971] (app) StdoutLine: {'line': b'copying app/common.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.559642] (app) StdoutLine: {'line': b'copying app/obj_loader.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.560300] (app) StdoutLine: {'line': b'copying app/tracking.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.560962] (app) StdoutLine: {'line': b'copying app/hand_trajectory_node.py -> /home/ubuntu/ros2_ws/src/build/app/build/lib/app\n'}
+[1.561787] (app) StdoutLine: {'line': b'running install\n'}
+[1.562618] (app) StdoutLine: {'line': b'running install_lib\n'}
+[1.563221] (app) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.564017] (app) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.564689] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.565464] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/__init__.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.566275] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/qrcode.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.566878] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/line_following.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.567480] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/avoidance_node.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.568187] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/gesture_control_node.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.568721] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/hand_gesture.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.569369] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/common.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.570030] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/obj_loader.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.570624] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/tracking.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.571204] (app) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/src/build/app/build/lib/app/hand_trajectory_node.py -> /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app\n'}
+[1.571778] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/__init__.py to __init__.cpython-310.pyc\n'}
+[1.572416] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/qrcode.py to qrcode.cpython-310.pyc\n'}
+[1.573005] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/line_following.py to line_following.cpython-310.pyc\n'}
+[1.573774] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/avoidance_node.py to avoidance_node.cpython-310.pyc\n'}
+[1.574264] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/gesture_control_node.py to gesture_control_node.cpython-310.pyc\n'}
+[1.574700] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/hand_gesture.py to hand_gesture.cpython-310.pyc\n'}
+[1.575269] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/common.py to common.cpython-310.pyc\n'}
+[1.575648] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/obj_loader.py to obj_loader.cpython-310.pyc\n'}
+[1.576066] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/tracking.py to tracking.cpython-310.pyc\n'}
+[1.576444] (app) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app/hand_trajectory_node.py to hand_trajectory_node.cpython-310.pyc\n'}
+[1.577388] (app) StdoutLine: {'line': b'running install_data\n'}
+[1.578092] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index\n'}
+[1.578697] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index\n'}
+[1.579449] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index/packages\n'}
+[1.580025] (app) StdoutLine: {'line': b'copying resource/app -> /home/ubuntu/ros2_ws/src/install/app/share/ament_index/resource_index/packages\n'}
+[1.580452] (app) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/src/install/app/share/app\n'}
+[1.580870] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.581338] (app) StdoutLine: {'line': b'copying launch/avoidance_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.581790] (app) StdoutLine: {'line': b'copying launch/object_tracking.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.582288] (app) StdoutLine: {'line': b'copying launch/line_following_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.582665] (app) StdoutLine: {'line': b'copying launch/qrcode.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.583124] (app) StdoutLine: {'line': b'copying launch/line_following.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.583500] (app) StdoutLine: {'line': b'copying launch/start_app.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.584016] (app) StdoutLine: {'line': b'copying launch/gesture_control_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.584475] (app) StdoutLine: {'line': b'copying launch/object_tracking_node.launch.py -> /home/ubuntu/ros2_ws/src/install/app/share/app/launch\n'}
+[1.584894] (app) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.585367] (app) StdoutLine: {'line': b'copying models/wolf.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.585798] (app) StdoutLine: {'line': b'copying models/cow.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.586238] (app) StdoutLine: {'line': b'copying models/bicycle.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.586811] (app) StdoutLine: {'line': b'copying models/pirate-ship-fat.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.587219] (app) StdoutLine: {'line': b'copying models/model.jpg -> /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.587733] (app) StdoutLine: {'line': b'copying models/chair.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.588082] (app) StdoutLine: {'line': b'copying models/rat.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.588429] (app) StdoutLine: {'line': b'copying models/fox.obj -> /home/ubuntu/ros2_ws/src/install/app/share/app/models\n'}
+[1.588776] (app) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.589375] (app) StdoutLine: {'line': b'Copying ../build/app/app.egg-info to /home/ubuntu/ros2_ws/src/install/app/lib/python3.10/site-packages/app-0.0.0-py3.10.egg-info\n'}
+[1.590823] (app) StdoutLine: {'line': b'running install_scripts\n'}
+[1.610668] (-) TimerEvent: {}
+[1.615271] (app) StdoutLine: {'line': b'Installing avoidance_node script to /home/ubuntu/ros2_ws/src/install/app/lib/app\n'}
+[1.616065] (app) StdoutLine: {'line': b'Installing gesture_control_node script to /home/ubuntu/ros2_ws/src/install/app/lib/app\n'}
+[1.616552] (app) StdoutLine: {'line': b'Installing line_following script to /home/ubuntu/ros2_ws/src/install/app/lib/app\n'}
+[1.616983] (app) StdoutLine: {'line': b'Installing qrcode script to /home/ubuntu/ros2_ws/src/install/app/lib/app\n'}
+[1.617636] (app) StdoutLine: {'line': b'Installing tracking script to /home/ubuntu/ros2_ws/src/install/app/lib/app\n'}
+[1.618370] (app) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/src/build/app/install.log'\n"}
+[1.659390] (app) CommandEnded: {'returncode': 0}
+[1.710940] (-) TimerEvent: {}
+[1.739831] (app) JobEnded: {'identifier': 'app', 'rc': 0}
+[1.742655] (-) EventReactorShutdown: {}
