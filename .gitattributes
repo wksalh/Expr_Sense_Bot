@@ -1,4 +1,4 @@
-ai_car_project/ai_tracker_body/model/reid/sim.engine filter=lfs diff=lfs merge=lfs -text
-ai_car_project/ai_ros2/ros2_ws/src/large_models/large_models/resources/models/FastSAM-x.pt filter=lfs diff=lfs merge=lfs -text
-ai_car_project/ai_tracker_body/lib/libopencv_videoio.so filter=lfs diff=lfs merge=lfs -text
+ai_tracker_body/model/reid/sim.engine filter=lfs diff=lfs merge=lfs -text
+ai_ros2/ros2_ws/src/large_models/large_models/resources/models/FastSAM-x.pt filter=lfs diff=lfs merge=lfs -text
+ai_tracker_body/lib/libopencv_videoio.so filter=lfs diff=lfs merge=lfs -text
 *.engine filter=lfs diff=lfs merge=lfs -text
